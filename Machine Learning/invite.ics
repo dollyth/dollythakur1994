@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Bishnu, Debarshinee":mailto:debarshineeb@kpmg.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN="Patni, Div
+ ya":mailto:divyapatni@kpmg.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=shishodia3
+ 747@gmail.com:mailto:shishodia3747@gmail.com
+ATTENDEE;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN="Dutta, Tan
+ ishtha":mailto:tanishthadutta@kpmg.com
+ATTACH:CID:0C1106E78CB75042A796BB3273C3C07E@INDPRD01.PROD.OUTLOOK.COM
+ATTACH:CID:0ABF10851F08AB4DAB160B54FD392568@INDPRD01.PROD.OUTLOOK.COM
+DESCRIPTION;LANGUAGE=en-US:\n______________________________________________
+ __________________________________\nMicrosoft Teams meeting\nJoin on your 
+ computer or mobile app\nClick here to join the meeting<https://teams.micro
+ soft.com/l/meetup-join/19%3ameeting_NGEwNTdhNzYtNjQzZi00ZjY5LTllZDQtODEyOD
+ BhODQ2NGIz%40thread.v2/0?context=%7b%22Tid%22%3a%22deff24bb-2089-4400-8c8e
+ -f71e680378b2%22%2c%22Oid%22%3a%22f76dd458-3b27-4784-ac37-0b435b967c09%22%
+ 7d>\nOr join by entering a meeting ID\nMeeting ID: 318 893 659 481\nPassco
+ de: nuQ4n9\nJoin with a video conferencing device\n684782010@t.plcm.vc<mai
+ lto:684782010@t.plcm.vc>\nVideo Conference ID: 124 555 590 3\nAlternate VT
+ C instructions<https://dialin.plcm.vc/teams/?key=684782010&conf=1245555903
+ >\nLearn More<https://aka.ms/JoinTeamsMeeting> | Meeting options<https://t
+ eams.microsoft.com/meetingOptions/?organizerId=f76dd458-3b27-4784-ac37-0b4
+ 35b967c09&tenantId=deff24bb-2089-4400-8c8e-f71e680378b2&threadId=19_meetin
+ g_NGEwNTdhNzYtNjQzZi00ZjY5LTllZDQtODEyODBhODQ2NGIz@thread.v2&messageId=0&l
+ anguage=en-US>\n__________________________________________________________
+ ______________________\n\n
+UID:040000008200E00074C5B7101A82E0080000000070056B54EC95D801000000000000000
+ 010000000DBB40E1B0BE48E4D8DE852AE2A424A4D
+SUMMARY;LANGUAGE=en-US:Connect with Sushma Shishodia - RPO - R1
+DTSTART;TZID=India Standard Time:20220712T130000
+DTEND;TZID=India Standard Time:20220712T133000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20220712T071401Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-879986714
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_NGEwNTdhNzYtNjQzZi00ZjY5LTllZDQtODEyODBhODQ2NGIz%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22deff24bb-2089-4400-8c8e-f71e680378b2%22%2c%22O
+ id%22%3a%22f76dd458-3b27-4784-ac37-0b435b967c09%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/deff24bb-2089-4400-8c8e-f71e680378b2/f76dd458-3b27-4784-ac37-0
+ b435b967c09/19_meeting_NGEwNTdhNzYtNjQzZi00ZjY5LTllZDQtODEyODBhODQ2NGIz@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_NGEwNTdhNzYtNjQzZi00ZjY
+ 5LTllZDQtODEyODBhODQ2NGIz@thread.v2"\,"private":true\,"type":0\,"mid":0\,"
+ rid":0\,"uid":null}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:debarshineeb@kpmg.com\;gruu\;opa
+ que=app:conf:focus:id:teams:2:0!19:meeting_NGEwNTdhNzYtNjQzZi00ZjY5LTllZDQ
+ tODEyODBhODQ2NGIz-thread.v2!f76dd4583b274784ac370b435b967c09!deff24bb20894
+ 4008c8ef71e680378b2
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[ { "DisplayName" : "Microsoft Teams Meeting"\, "Loca
+ tionAnnotation" : ""\, "LocationSource" : 0\, "Unresolved" : false\, "Loca
+ tionUri" : "" } ]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
